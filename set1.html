@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+box-sizing: border-box;
+}
+body {
+font-family: monospace;
+padding: 20px;
+background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHw52s6qYdz5Q2-xKEI3VE7UAJcQ67FwcNJg&usqp=CAU");
+height: 100%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+header {
+padding-top: 5px;
+
+padding-bottom: 5px;
+font-size: 24px;
+text-align: center;
+background: white;
+}
+.leftcolumn {
+float: left;
+width: 70%;
+}
+.rightcolumn {
+float: left;
+width: 30%;
+padding-left: 20px;
+}
+#image1,#image2,#image3{
+height: 16%;
+width: 16%;
+}
+.card {
+background-color: white;
+padding-top: 3px;
+padding-left: 15px;
+padding-bottom: 10px;
+margin-top: 20px;
+}
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+textarea {
+width: 90%;
+height: 150px;
+padding: 12px 20px;
+box-sizing: border-box;
+
+border: 2px solid #ccc;
+border-radius: 4px;
+background-color: #f8f8f8;
+font-size: 16px;
+resize: none;
+}
+footer {
+padding: 10px;
+background: white;
+margin-top: 20px;
+}
+@media screen and (max-width: 800px) {
+.leftcolumn, .rightcolumn {
+width: 100%;
+padding: 0;
+}
+}
+</style>
+</head>
+<body>
+<header>
+<h2>Personal Blog Creation</h2>
+</header>
+<section class="row">
+<section class="leftcolumn">
+<section class="card">
+<h2><i>About Me</i></h2>
+<div align="center"><img src="images.jpg" style="width: 50%;height:
+50%;"></div>
+<p><i>Hello Everyone!</i></p>
+<p><i>&emsp;&emsp;This blog is about dogs.The dog is a domesticated descendant of the wolf. Also
+called the domestic dog, it is derived from the extinct Pleistocene wolf, and the modern wolf is the dog's
+nearest living relative.<i></p>
+</section>
+</section>
+
+<aside class="rightcolumn">
+<section class="card">
+<h2>Area of Interests</h2>
+<video width="400" controls>
+<source src="IoT.mp4" type="video/mp4">
+Your browser does not support HTML video.
+</video>
+<audio controls>
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="horse.mp3" type="audio/mpeg">
+  Your browser does not support the audio tag.
+</audio>
+</section>
+<section class="card">
+<center><textarea placeholder="Type here..."> </textarea></center>
+</section>
+</aside>
+</section>
+<footer>
+<p>Copyright &copy; 2022. All rights reserved. </p>
+</footer>
+</body>
+</html>
